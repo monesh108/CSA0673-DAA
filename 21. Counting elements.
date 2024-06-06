@@ -1,0 +1,12 @@
+def countElements(arr):
+	size = len(arr)
+	res = 0
+	dat={}
+	for i in range(size):
+		dat[arr[i] - 1] = True
+	for i in range(size):
+		if (arr[i] in dat):
+			res += 1
+	return res
+arr = [1, 2, 3]
+print(countElements(arr))
