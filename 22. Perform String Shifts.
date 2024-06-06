@@ -1,0 +1,19 @@
+def stringShift(s, shift):
+	val = 0
+	for i in range(len(shift)):
+		val += -shift[i][1] if shift[i][0] == 0 else shift[i][1]
+	Len = len(s)
+	val = val % Len
+	result = ""
+	if (val > 0):
+		result = s[Len - val:Len] + s[0: Len - val]
+	else:
+		result = s[-val: Len] + s[0: -val]
+
+	print(result)
+s = "abc"
+shift = [
+	[ 0, 1 ],
+	[ 1, 2 ]
+]
+stringShift(s, shift)
