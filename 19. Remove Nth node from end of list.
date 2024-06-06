@@ -1,0 +1,42 @@
+class Node:
+    def __init__(self, value):
+        self.data = value
+        self.next = None
+def length(head):
+    temp = head
+    count = 0
+    while(temp != None):
+        count += 1
+        temp = temp.next
+    return count
+def printList(head):
+    ptr = head
+    while(ptr != None):
+        print (ptr.data, end =" ")
+        ptr = ptr.next
+    print()
+def deleteNthNodeFromEnd(head, n):
+    Length = length(head)
+    nodeFromBeginning = Length - n + 1
+    prev = None
+    temp = head
+    for i in range(1, nodeFromBeginning):
+        prev = temp
+        temp = temp.next
+    if(prev == None):
+        head = head.next
+        return head
+    else:
+        prev.next = prev.next.next
+        return head
+if __name__ == '__main__':
+    head = Node(1)
+    head.next = Node(2)
+    head.next.next = Node(3)
+    head.next.next.next = Node(4)
+    head.next.next.next.next = Node(5)
+    print("Linked List before Deletion:")
+    printList(head)
+    head = deleteNthNodeFromEnd(head, 4)
+    print("Linked List after Deletion:")
+    printList(head)
