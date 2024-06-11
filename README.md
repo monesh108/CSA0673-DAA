@@ -32,3 +32,61 @@ Assignment 2<br />
 8. 4Sum<br />
 9. Remove nth node from end of list<br />
 10. Valid parentheses<br />
+
+Day 2
+
+Demonstration of mathematical analysis of recursive and non-recursive algorithms<br />
+Half odd and Half even<br />
+Intersection of two arrays (recurring elements)<br />
+Intersection of two arrays<br />
+Solving recurrence relation using Master theorem, Iteration method and Substitution method<br />
+Sort array by odd and even<br />
+Sort array in ascending order<br />
+Usage of notations by analyzing time complexity<br />
+Write a program to find the perfect number<br />
+Write a program to find the reverse of a given number using recursive<br />
+Assignment 3<br />
+
+Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree<br />
+Check if a string can break another string<br />
+Counting elements<br />
+First unique number<br />
+Kid with greatest number of candies<br />
+Left most column with atleast a one<br />
+Max difference you can get from chaning integers<br />
+Next permutations<br />
+Number of ways to wear different hats on each other<br />
+Perform string shifts<br />
+Day 3<br />
+
+Check if a string can break another string<br />
+Generate k Closest Points to the Origin<br />
+Maximum Binary Tree from an Integer Array<br />
+Maximum Sum of Subsequence with No Adjacent Elements<br />
+Maximum Sum of a Circular Subarray<br />
+Median of Two Sorted Arrays with Time Complexity of O(log(m+n))<br />
+Remove the first occurence of the letter in the string<br />
+Replace question marks in string to minimize it's valuev<br />
+Smallest String With Swaps<br />
+Subarray with the largest sum<br />
+Assignment 4<br />
+
+Apply operations to an array<br />
+Average value of even numbers divisible by three<br />
+Destroy Sequential Targets<br />
+Finding the minimum non-negative integer<br />
+Minimum Addition to make an integer Beautiful<br />
+Odd String difference<br />
+Sort array by moving items to empty space<br />
+The next greater element<br />
+Words within two edits of dictionary<br />
+Day 4<br />
+
+Insert number in a list<br />
+List of all factors of n<br />
+Minimum and Maximum value in a list<br />
+Pascal Triangle<br />
+Pattern<br />
+Perfect number<br />
+Sum of digits<br />
+Travelling Salesman<br />
